@@ -9,7 +9,7 @@ class Bomb extends Component {
         }
     }
     render() {
-        if(this.state.secondsLef !== 0) {
+        if(this.state.secondsLeft !== 0) {
             return <p>{this.state.secondsLeft} seconds left before I go boom!</p>
         } else {
             return <p>Boom!</p>
